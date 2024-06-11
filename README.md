@@ -73,15 +73,13 @@ React Hooksについて勉強
 ### node_moduleインストール
 
 ```bash
-cd study
 npm install
 ```
 
 ### サービス起動(Run Development)
 
 ```bash
-cd study/src
-npm run dev
+npm start
 ```
 
 ### 動作確認
