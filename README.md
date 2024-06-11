@@ -5,7 +5,6 @@
 <p style="display: inline">
   <!-- フロントエンドフレームワーク一覧 -->
   <img src="https://img.shields.io/badge/-React-555.svg?logo=react&style=flat">
-  <img src="https://img.shields.io/badge/-TypeScript-007ACC.svg?logo=typescript&style=flat">
   <img src="https://img.shields.io/badge/-ChakraUI-007ACC.svg?logo=chakraui&style=flat">
   <!-- インフラ一覧-->
   <img src="https://img.shields.io/badge/-Vercel-000000.svg?logo=vercel&style=flat">
@@ -54,7 +53,8 @@ React Hooksについて勉強
 | --------------------- | ---------- |
 | Node.js               | 20.12.1    |
 | React                 | 18.3.1     |
-| TypeScript            | 5.4.5      |
+| @chakra-ui/react      | 2.8.2      |
+| @chakra-ui/icons      | 2.1.1      |
 
 その他のパッケージのバージョンは package.json を参照してください
 

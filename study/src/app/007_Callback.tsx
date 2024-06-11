@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const State = () => {
+const Callback = () => {
     return (
         
         <>
@@ -11,4 +11,4 @@ const State = () => {
 
 }
 
-export default State;
+export default Callback;
