@@ -1,5 +1,5 @@
 import React,{createContext, useContext, useState} from 'react'
-import { Button, VStack,Stack, Flex, Text,Center, Input } from '@chakra-ui/react';
+import { Button, VStack,Stack, Flex, Text, Input } from '@chakra-ui/react';
 
 const midashi = "useContext … コンポーネントツリーの様々な階層からContextに収容されたデータへアクセスする"
 const ThemeContext = createContext('')

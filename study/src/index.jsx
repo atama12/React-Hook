@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
-import App from './app/001_App.tsx';
+import reportWebVitals from './reportWebVitals.js';
+import App from './app/001_App';
 import { ChakraProvider } from '@chakra-ui/react';
 
-const document_root = document.getElementById('root') as HTMLElement;
+const document_root = document.getElementById('root');
 const root = ReactDOM.createRoot(document_root);
 
 
@@ -13,7 +13,6 @@ root.render(
 
     <ChakraProvider>
       <App />
-
     </ChakraProvider>
 
 );

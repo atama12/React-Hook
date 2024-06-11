@@ -1,14 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
-import { Menu,MenuButton,MenuList,MenuItem,Button,Flex, Heading } from '@chakra-ui/react';
+import { Menu,MenuButton,MenuList,MenuItem,Button,Flex } from '@chakra-ui/react';
 import { ChevronDownIcon } from '@chakra-ui/icons'
-import State from './003_State.tsx';
-import Effect from './004_Effect.tsx';
-import Context from './005_Context.tsx';
-import Ref from './006_Ref.tsx';
-import Callback from './007_Callback.tsx';
-import Memo from './008_Memo.tsx';
-import Sound from './009_Sound.tsx';
+import State from './003_State';
+import Effect from './004_Effect';
+import Context from './005_Context';
+import Ref from './006_Ref';
+import Callback from './007_Callback';
+import Memo from './008_Memo';
+import Sound from './009_Sound';
 
 const App = () => {
 
