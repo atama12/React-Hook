@@ -86,7 +86,7 @@ npm run dev
 
 ### 動作確認
 
-<http://localhost:3000/state> にアクセスできるか確認
+<http://localhost:3000> にアクセスできるか確認
 
 アクセスできたら成功
 
