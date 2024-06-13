@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { NumberInput,NumberInputField,Button, VStack,Stack, Flex, Text,Center,Input } from '@chakra-ui/react';
 
 const Sample1 =() => {
@@ -57,6 +57,9 @@ const Sample3 =() => {
     const [currentValue,setValue] = useState("Initialize String");
 
 
+    useEffect(() => {
+        console.log("rendering!!")
+    })
 
     return (
         <VStack>
@@ -76,7 +79,7 @@ const State = () => {
     return (
         
         <>
-            <VStack margin="10px" alignItems="flex-start" spacing={5}>
+            <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
                 <Text fontSize="x-large">
                     useState … 関数コンポーネントでstate管理（保持と更新）する、最も利用される
                 </Text>

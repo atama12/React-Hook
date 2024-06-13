@@ -16,8 +16,8 @@ const App = () => {
 
   return (
     <>
-      <Flex w="100vw" h="100vh" flexDirection="column" alignContent="flex-start" flexWrap="wrap" backgroundColor="#FFFFE0">
-        <Flex w="100%" h="5%" alignItems="center" justifyContent="space-between" backgroundColor="lightcyan">
+      <Flex w="100vw" h="100vh" flexDirection="column" alignContent="flex-start" alignItems="center" flexWrap="nowrap" backgroundColor="#FFFFE0">
+        <Flex w="60%" h="5%" alignItems="center"  justifyContent="space-between" flexWrap="nowrap" backgroundColor="lightcyan">
           <Menu>
             <MenuButton as={Button} rightIcon={<ChevronDownIcon />}>
               Hooks選択
