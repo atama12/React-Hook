@@ -90,5 +90,23 @@ const Callback = () => {
     )
 
 }
+export const MobileCallback = () => {
+    return (
+        
+        <>
+            <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                    <Sample2 />
+                </VStack>
+                
+            </VStack>
 
+        </>
+    )
+
+}
 export default Callback;

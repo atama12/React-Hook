@@ -2,6 +2,7 @@ import React from 'react'
 import { useState,useEffect } from 'react';
 import { NumberInput,NumberInputField,Button, VStack,Stack, Flex, Text,Center,Input } from '@chakra-ui/react';
 
+const midashi = "useState … 関数コンポーネントでstate管理（保持と更新）する、最も利用される"
 const Sample1 =() => {
     const title = "サンプル① 数値の保持"
 
@@ -81,7 +82,7 @@ const State = () => {
         <>
             <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
                 <Text fontSize="x-large">
-                    useState … 関数コンポーネントでstate管理（保持と更新）する、最も利用される
+                    {midashi}
                 </Text>
                 <Stack direction="row" spacing={10}>
                     <Sample1 />
@@ -95,5 +96,26 @@ const State = () => {
     )
 
 }
+export const MobileState = () => {
 
+
+    return (
+        
+        <>
+            <VStack w="100%" margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                    <Sample2 />
+                    <Sample3 />
+                </VStack>
+                
+            </VStack>
+
+        </>
+    )
+
+}
 export default State;

@@ -61,5 +61,22 @@ const Effect = () => {
     )
 
 }
+export const MobileEffect = () => {
+    return (
+        
+        <>
+            <VStack w="100%" margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                </VStack>
+                
+            </VStack>
 
+        </>
+    )
+
+}
 export default Effect;

@@ -1,5 +1,5 @@
 import React,{useMemo, useState} from 'react'
-import { Button, VStack,Stack, Flex, Text,Input } from '@chakra-ui/react';
+import { Button, VStack,Stack, Flex, Text } from '@chakra-ui/react';
 
 const midashi = "useMemo … 計算結果をキャッシュし再レンダリングをスキップする"
 
@@ -107,5 +107,23 @@ const Memo = () => {
     )
 
 }
+export const MobileMemo = () => {
+    return (
+        
+        <>
+            <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                    <Sample2 />
+                </VStack>
+                
+            </VStack>
 
+        </>
+    )
+
+}
 export default Memo;

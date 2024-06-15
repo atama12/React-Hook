@@ -65,4 +65,33 @@ const Context = () => {
 
 }
 
+export const MobileContext = () => {
+
+    const [theme,setTheme] = useState('white')
+    const [inputValue,setInputValue] = useState('');
+
+    const handleSubmit = () => {
+        setTheme(inputValue)
+    }
+    return (
+        
+        <ThemeContext.Provider value={theme}>
+            <VStack w="100%"  margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Input variant='outline' placeholder='色を英語で入力,もしくはカラーコード入力' backgroundColor="white" onChange={(e) => setInputValue(String(e.target.value))}/>
+                    <Button onClick={handleSubmit}>Submit</Button>
+                </VStack>
+                
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                </VStack>
+                
+            </VStack>
+        </ThemeContext.Provider>
+    )
+
+}
 export default Context;

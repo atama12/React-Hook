@@ -1,6 +1,6 @@
 import React from 'react'
 import {useSound} from 'use-sound'
-import { Button, VStack,Stack, Flex, Text,Input } from '@chakra-ui/react';
+import { Button, VStack,Stack, Flex, Text} from '@chakra-ui/react';
 import Sounds from '../test.mp3'
 
 const midashi = "useSound … コンポーネント内でオーディオの制御を行う"
@@ -85,5 +85,23 @@ const Sound = () => {
     )
 
 }
+export const MobileSound = () => {
+    return (
+        
+        <>
+            <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
+                <Text fontSize="x-large">
+                    {midashi}
+                </Text>
+                <VStack direction="row" spacing={10}>
+                    <Sample1 />
+                    <Sample2 />
+                    <Sample3 />
+                </VStack>
+                
+            </VStack>
+        </>
+    )
 
+}
 export default Sound;
