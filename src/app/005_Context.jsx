@@ -80,10 +80,10 @@ export const MobileContext = () => {
                 <Text fontSize="x-large">
                     {midashi}
                 </Text>
-                <VStack direction="row" spacing={10}>
+                <Stack direction="row" spacing={10}>
                     <Input variant='outline' placeholder='色を英語で入力,もしくはカラーコード入力' backgroundColor="white" onChange={(e) => setInputValue(String(e.target.value))}/>
                     <Button onClick={handleSubmit}>Submit</Button>
-                </VStack>
+                </Stack>
                 
                 <VStack direction="row" spacing={10}>
                     <Sample1 />

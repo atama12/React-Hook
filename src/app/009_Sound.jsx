@@ -29,7 +29,7 @@ const Sample2 = () => {
     const [playMiddle] = useSound(Sounds,{volume:0.5});
     const [playSmall] = useSound(Sounds,{volume:0.2});
 
-    const title = "サンプル② 音声の再生、停止"
+    const title = "サンプル② 音声の音量調整"
 
     return (
         <VStack>
@@ -50,7 +50,7 @@ const Sample3 = () => {
     const [playNormal] = useSound(Sounds,{playbackRate:1});
     const [playSlow] = useSound(Sounds,{playbackRate:0.5});
 
-    const title = "サンプル② 音声の再生、停止"
+    const title = "サンプル③ 音声の速度調整"
 
     return (
         <VStack>
