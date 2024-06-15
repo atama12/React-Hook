@@ -111,7 +111,7 @@ export const MobileMemo = () => {
     return (
         
         <>
-            <VStack w="60%" margin="10px" alignItems="flex-start" spacing={5}>
+            <VStack w="100%" margin="10px" alignItems="flex-start" spacing={5}>
                 <Text fontSize="x-large">
                     {midashi}
                 </Text>
