@@ -81,7 +81,7 @@ export const MobileContext = () => {
                     {midashi}
                 </Text>
                 <Stack direction="row" spacing={10}>
-                    <Input variant='outline' placeholder='色を英語で入力,もしくはカラーコード入力' backgroundColor="white" onChange={(e) => setInputValue(String(e.target.value))}/>
+                    <Input variant='outline' placeholder='色を英語で or カラーコード' backgroundColor="white" onChange={(e) => setInputValue(String(e.target.value))}/>
                     <Button onClick={handleSubmit}>Submit</Button>
                 </Stack>
                 
